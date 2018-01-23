@@ -99,3 +99,6 @@ function validateAnswer(event) {
 firstArg.addEventListener('input', validateFirstArg);
 secondArg.addEventListener('input', validateSecondArg);
 answerIput.addEventListener('input', validateAnswer);
+
+
+//недоработанные стрелки
