@@ -1,0 +1,118 @@
+.example {
+    width: 875px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.line {
+    width: 875px;
+    margin: auto;
+}
+
+.conditions{
+    width: 100%;
+    height: 30px;
+}
+
+.line-image {
+    width: 100%;
+    height: 83px;
+    background: url(./images/sprite.png);
+}
+
+.first-number, .second-number {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.first-arg, .second-arg{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+}
+
+.second-arg-right-js {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-arg-right-js {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.answer-input {
+    width: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.error-input {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.border-arrow {
+    position: relative;
+    left: 35px;
+    border-radius: 100px / 50px;
+    border-top: 2px solid red;
+    display: inline-block;
+}
+
+.border-arrow-second {
+    display: inline-block;
+    height: 75px;
+    border-radius: 75px 75px 0 0;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    position: relative;
+}
+
+.border-arrow__pointer {
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-top: 10px solid red;
+    position: absolute;
+    right: -5px;
+    top: 134px;
+}
+
+.border-arrow-second__pointer {
+    width: 1px;
+    height: 1px;
+    border: 7px solid transparent;
+    border-top: 7px solid red;
+    position: absolute;
+    right: -11px;
+    top: 75px;
+}
+
+.border-arrow-opacity {
+    opacity: 0;
+}
+
+#oval {
+    width: 200px;
+    height: 100px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
